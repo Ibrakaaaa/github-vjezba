@@ -28,9 +28,7 @@ function App() {
       <h1>{advice}</h1>
       <button onClick={fetchAdvice}>Click me</button>
       <Message count={count} />
-<Testing />
-<Testing2 />
-<NewComponent />
+      <newTitle />
     </div>
   );
 }
@@ -41,16 +39,10 @@ function Message({count}) {
 
 }
 
-function Testing() {
-  return <h1>Testing Git</h1>
-}
 
-function Testing2() {
-  return <h1>Just another test</h1>
-}
 
-function NewComponent() {
-  return <h2>New component</h2>
+function newTitle() {
+  return <h1>This is a new title</h1>
 }
 
 export default App;
