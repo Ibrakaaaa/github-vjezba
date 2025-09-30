@@ -29,6 +29,7 @@ function App() {
       <button onClick={fetchAdvice}>Click me</button>
       <Message count={count} />
 <Testing />
+<Testing2 />
     </div>
   );
 }
@@ -41,6 +42,10 @@ function Message({count}) {
 
 function Testing() {
   return <h1>Testing Git</h1>
+}
+
+function Testing2() {
+  return <h1>Just another test</h1>
 }
 
 export default App;
