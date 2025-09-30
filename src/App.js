@@ -30,6 +30,7 @@ function App() {
       <Message count={count} />
 <Testing />
 <Testing2 />
+<NewComponent />
     </div>
   );
 }
@@ -46,6 +47,10 @@ function Testing() {
 
 function Testing2() {
   return <h1>Just another test</h1>
+}
+
+function NewComponent() {
+  return <h2>New component</h2>
 }
 
 export default App;
