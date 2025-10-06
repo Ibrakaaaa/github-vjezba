@@ -29,6 +29,7 @@ function App() {
       <button onClick={fetchAdvice}>Click me</button>
       <Message count={count} />
       <NewTitle />
+
     </div>
   );
 }
@@ -43,4 +44,3 @@ function NewTitle() {
   return <h1>This is a new title</h1>
 }
 
-export default App;
